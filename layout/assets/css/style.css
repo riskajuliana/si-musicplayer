@@ -1,0 +1,191 @@
+.container {
+	width: 800px;
+	margin: auto;
+}
+
+.header {
+	margin-bottom: 0px;
+	
+	
+
+}
+body{
+   background:#d5f0f3;
+
+}
+
+.menu {
+	width: 660px;
+	padding : 10px;
+	background: Linear-gradient(to right, rgb(38, 5, 70) 0%, black 100%);
+	color: #fff;
+	text-decoration: none;
+	
+}
+
+.menu a {
+margin: right;
+	color: white;
+	border: 1px solid #000;
+	padding: 4px;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+.menu a:hover {
+	background: black;
+}
+
+.tambah {
+border: 1px solid #000;
+padding: 1px;
+text-decoration: none;
+background-color: #FF9B00;
+color: white;
+
+
+}
+
+.tambah:hover {
+
+	background-color: black;
+	color: white;
+}
+
+table {
+	margin-top: 10px;
+}
+
+table a{
+	border: 1px solid #ccc;
+	padding: 10px;
+	background-color: #19B5FE;
+	color: #fff;
+	margin-top: 10px;
+}
+
+table tr{
+	border: 1px solid #ccc;
+	padding: 10px;
+	background-color: #19B5FE;
+	color: #DCDCDC;
+}
+
+table{
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+}
+
+.edit {
+	text-decoration: none;
+	padding: 7px;
+	background-color: #2708F9;
+}
+
+.delete {
+
+	
+	padding: 5px;
+	background-color: #2708F9;
+}
+
+
+table th{
+	border: 1px solid #ccc;
+	padding: 10px;
+	background-color: #10BBF1;
+	color: #fff;
+}
+
+table td{
+
+	border: 1px solid #ccc;
+	padding: 10px;
+	background-color: #41EDF9;
+	color: black;
+}
+.submit {
+	padding: 5px;
+	background-color: blue;
+	color: white
+}
+.kotak_input{
+	width: 680px;
+	background: white;
+	/*meletakkan form ke tengah*/
+	/*margin: 80px auto;*/
+margin-left: 70px;
+	padding: 30px 20px;
+border-radius: 15px;
+}
+
+.kotak_input2{
+	width: 850px;
+	background:Linear-gradient(to right, rgb(38, 5, 70) 0%, black 100%) ;
+	/*meletakkan form ke tengah*/
+	/*margin: 80px auto;*/
+margin-left: 170px;
+	padding: 30px 20px;
+border-radius: 15px;
+}
+label{
+	font-size: 11pt;
+}
+label2{
+color : white;
+font-size : 20pt;
+font-family: 'Mark Sript' ursive;
+}
+h1 {
+color: white;
+}
+.input{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 10px;
+margin-top: 10px;
+}
+.login{
+	width: 350px;
+	background: #888AFA;
+	/*meletakkan form ke tengah*/
+	margin: 50px auto;
+	padding: 30px 20px;
+}
+.tombol{
+	background: #1115EC;
+	color: white;
+	font-size: 20pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	paddin
+ }
+.btn {
+	border: 1px solid #ccc;
+	font-size: 15px;
+	font-weight: 400;
+	padding: 4px;
+	vertical-align: 3px;
+	text-decoration: none;
+}
+.grid-music {
+	display: grid;
+	grid-auto-columns:33,333333%;
+	grid-template-areas: "a a a";
+	grid-gap: 50px;
+}
+
+.grid-music > div {
+  text-align: center;
+}
+
+.footer {
+	border-top: 1px dotted #ccc;
+	padding-top: 10px; 
+	margin-top: 20px;
+	font-weight: 500px;
+}
